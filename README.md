@@ -3,6 +3,7 @@ Graph Neural Network architecture to solve the decision variant of the Traveling
 
 OBS. To run this code you must install [pyconcorde](https://github.com/jvkersch/pyconcorde) first.
 
+
 ![](/figures/route-examples.png)
 
 Upon training with -2%, +2% from the optimal cost, the model is able to achieve >80% test accuracy. It also learns to generalize for different graph distributions & larger instance sizes (with decreasing accuracy) and more relaxed deviations (with better accuracy).
