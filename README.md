@@ -2,6 +2,19 @@
 Graph Neural Network architecture to solve the decision variant of the Traveling Salesperson Problem (i.e. "is there a Hamiltonian tour in G with up to a given cost"?).
 
 OBS. To run this code you must install [pyconcorde](https://github.com/jvkersch/pyconcorde) first.
+安装pyconcorde【成功】
+将GitHub项目pyconcorde下载到调库地址:
+/home/dell/anaconda3/envs/（虚拟环境名）/lib/python3.9/site-packages
+
+下载命令：
+git clone https://github.com/jvkersch/pyconcorde
+
+打开文件：
+cd pyconcorde
+
+编译：
+pip install -e .
+
 
 
 ![](/figures/route-examples.png)
